@@ -8,7 +8,7 @@ function checkNumber(number) {
     }
 }
 
-// Example usage:
+
 checkNumber(10);   
 checkNumber(-5);   
 checkNumber(0);    

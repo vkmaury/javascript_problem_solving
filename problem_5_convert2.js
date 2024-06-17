@@ -3,7 +3,7 @@ function celsiusToFahrenheit(celsius) {
     return fahrenheit;
 }
 
-// Example usage:
+
 const celsius = 30;
 const fahrenheit = celsiusToFahrenheit(celsius);
 console.log(`${celsius} degrees Celsius is equal to ${fahrenheit.toFixed(2)} degrees Fahrenheit.`);

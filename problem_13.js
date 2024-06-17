@@ -12,5 +12,5 @@ function scheduleTimeouts() {
     }
 }
 
-// Example usage:
+
 scheduleTimeouts();

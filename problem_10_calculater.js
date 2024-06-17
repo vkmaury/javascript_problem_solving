@@ -1,28 +1,28 @@
-// Function to add two numbers
+
 function add(a, b) {
     return a + b;
 }
 
-// Function to subtract two numbers
+
 function subtract(a, b) {
     return a - b;
 }
 
-// Function to multiply two numbers
+
 function multiply(a, b) {
     return a * b;
 }
 
-// Function to divide two numbers
+
 function divide(a, b) {
-    // Check if dividing by zero
+    
     if (b === 0) {
         return "Cannot divide by zero";
     }
     return a / b;
 }
 
-// Example usage:
+
 const num1 = 10;
 const num2 = 5;
 

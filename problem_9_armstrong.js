@@ -10,7 +10,7 @@ function isArmstrongNumber(number) {
     return sum === number;
 }
 
-// Example usage:
+
 const num1 = 153;
 console.log(`${num1} is Armstrong number: ${isArmstrongNumber(num1)}`); // true
 
