@@ -7,14 +7,14 @@ function decimalToBinary(decimal) {
     let num = decimal;
 
     while (num > 0) {
-        binary = (num % 2) + binary; // Prepend remainder to binary string
-        num = Math.floor(num / 2);   // Update number by integer division
+        binary = (num % 2) + binary; 
+        num = Math.floor(num / 2);   
     }
 
     return binary;
 }
 
-// Example usage:
+
 const decimalNumber = 23;
 const binaryNumber = decimalToBinary(decimalNumber);
 console.log(`Decimal ${decimalNumber} is ${binaryNumber} in binary.`);
