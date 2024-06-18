@@ -20,7 +20,7 @@ function shuffleDeck(deck) {
     }
 }
 
-// Example usage:
+
 const deck = createDeck();
 console.log('Original deck:', deck);
 

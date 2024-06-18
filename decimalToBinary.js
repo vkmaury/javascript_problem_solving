@@ -15,6 +15,6 @@ function decimalToBinary(decimal) {
 }
 
 
-const decimalNumber = 23;
+const decimalNumber = 2;
 const binaryNumber = decimalToBinary(decimalNumber);
 console.log(`Decimal ${decimalNumber} is ${binaryNumber} in binary.`);

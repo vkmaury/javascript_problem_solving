@@ -20,6 +20,6 @@ function fibonacciSequence(count) {
     }
 }
 
-// Example usage:
-const numberOfTerms = 10; // Change this number to get different counts
+
+const numberOfTerms = 10; 
 fibonacciSequence(numberOfTerms);
